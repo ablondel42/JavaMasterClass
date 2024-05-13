@@ -12,7 +12,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class PositiveNegativeZeroTest {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
-    private final PositiveNegativeZero pnz = new PositiveNegativeZero();
 
     @BeforeEach
     public void setUpStreams() {
@@ -26,15 +25,15 @@ class PositiveNegativeZeroTest {
 
     @Test
     void checkNumber() {
-        pnz.checkNumber(1);
+        PositiveNegativeZero.checkNumber(1);
         assertEquals("positive\n", outContent.toString());
         outContent.reset();
 
-        pnz.checkNumber(0);
+        PositiveNegativeZero.checkNumber(0);
         assertEquals("zero\n", outContent.toString());
         outContent.reset();
 
-        pnz.checkNumber(-1);
+        PositiveNegativeZero.checkNumber(-1);
         assertEquals("negative\n", outContent.toString());
         outContent.reset();
     }
