@@ -1,11 +1,11 @@
-package Exercice_44;
+package Section_10.Exercice_44;
 
 import java.util.ArrayList;
 import java.util.Objects;
 
 public class MobilePhone {
 
-    private ArrayList<Contact> myContacts;
+    private final ArrayList<Contact> myContacts;
     private String myNumber;
 
     public MobilePhone(String myNumber) {

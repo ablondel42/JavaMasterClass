@@ -1,4 +1,4 @@
-package Exercice_44;
+package Section_10.Exercice_44;
 
 public class Contact {
     private String name;
