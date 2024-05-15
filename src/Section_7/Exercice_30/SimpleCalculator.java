@@ -1,6 +1,6 @@
 package Section_7.Exercice_30;
 
-public class SumCalculator {
+public class SimpleCalculator {
     private double firstNumber;
     private double secondNumber;
 
