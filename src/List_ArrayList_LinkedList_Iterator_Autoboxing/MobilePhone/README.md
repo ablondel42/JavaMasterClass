@@ -1,4 +1,4 @@
-Mobile Phone
+MobilePhone
 
 Create a program that implements a simple mobile phone with the following capabilities.
 
