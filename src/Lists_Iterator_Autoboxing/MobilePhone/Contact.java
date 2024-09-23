@@ -1,4 +1,4 @@
-package List_ArrayList_LinkedList_Iterator_Autoboxing.MobilePhone;
+package Lists_Iterator_Autoboxing.MobilePhone;
 
 public class Contact {
     private String name;

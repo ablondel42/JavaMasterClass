@@ -1,4 +1,4 @@
-package List_ArrayList_LinkedList_Iterator_Autoboxing.Playlist;
+package Lists_Iterator_Autoboxing.Playlist;
 
 public class Song {
     private String title;

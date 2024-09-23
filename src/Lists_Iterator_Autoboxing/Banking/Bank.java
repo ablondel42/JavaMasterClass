@@ -1,4 +1,4 @@
-package List_ArrayList_LinkedList_Iterator_Autoboxing.Banking;
+package Lists_Iterator_Autoboxing.Banking;
 
 import java.util.ArrayList;
 
